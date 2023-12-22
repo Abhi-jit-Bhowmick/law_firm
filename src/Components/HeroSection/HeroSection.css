@@ -1,0 +1,176 @@
+.herosection-container {
+    height: 700px;
+    width: 100%;
+    background-color: var(--color-black);
+    /* background-color: aqua; */
+}
+
+.hero-container {
+    height: 700px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    width: 571px;
+    height: 530px;
+    color: var(--color-white);
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-img {
+    width: 467px;
+    height: 544px;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-head {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 30%;
+}
+
+.hero-input-wrapper {
+    height: 74px;
+    width: 438px;
+    position: relative;
+}
+
+.hero-input-wrapper input {
+    width: 100%;
+    height: 100%;
+    border-radius: 43px;
+    opacity: 10%;
+    background-color: var(--color-white);
+    outline: none;
+    padding: 20px;
+}
+
+.hero-input-wrapper button {
+    width: 137px;
+    height: 100%;
+    border-radius: 43px;
+    background-color: var(--color-yellow);
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-black);
+
+}
+
+.introduce-container {
+    width: 100%;
+    height: 250px;
+    background-color: var(--color-gray);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-intro {
+    width: 80%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero-intro {
+    display: flex;
+
+    align-items: center;
+    color: var(--color-white);
+
+    position: relative;
+}
+
+.border {
+    border-left: 1px solid var(--color-border);
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 20%
+}
+
+.hero-intro-p {
+    /* width: 50%; */
+    font-size: 54px;
+    font-weight: 600;
+    flex: 1;
+    margin-right: 50px;
+}
+
+.criminal-sec {
+    flex: 1;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.criminal {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-white);
+    opacity: 30%;
+}
+
+::placeholder {
+    /* color: var(--color-white); */
+    /* opacity: 5%; */
+
+}
+
+/* .hero-input-container {
+    height: 74px;
+    width: 438px;
+    display: flex;
+}
+
+.hero-input-container button {
+    width: 173px;
+    height: 62px;
+}
+
+.hero-input {
+    width: 438px;
+    height: 74px;
+    border-radius: 43px;
+    outline: none;
+    background-color: var(--color-white);
+    opacity: 10%;
+}
+
+.hero-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+} */
