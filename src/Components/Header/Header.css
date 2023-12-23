@@ -21,6 +21,11 @@
     align-items: center;
 }
 
+.header-items p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .header-logo {
     width: 100px;
     height: 33px;
@@ -32,5 +37,17 @@
 }
 
 .header-components-container div {
+    cursor: pointer;
+}
+
+.header-contact-button input {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+    width: 172px;
+    height: 47px;
+    border: 2px solid var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
 }
