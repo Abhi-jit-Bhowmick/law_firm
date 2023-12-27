@@ -1,0 +1,49 @@
+.team-container {
+    /* Width 344px Height 109px */
+    width: 344px;
+    height: 109px;
+    background-color: transparent;
+    /* background-color: var(--color-yellow); */
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.team-member-img {
+    width: 68px;
+    height: 68px;
+}
+
+.team-member-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .team-container :hover {
+    background-color: var(--color-yellow);
+} */
+
+.member-name {
+    /* Weight 600 Size 24px */
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.case-number {
+    /* Weight 400 Size 14px */
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 30%;
+
+}
+
+.team-container:hover {
+    background: var(--color-yellow);
+    color: black;
+
+}

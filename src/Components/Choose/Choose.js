@@ -13,8 +13,8 @@ function Choose() {
                 </div>
                 <div className='choose-card'>
                     {
-                        successRate.map((item) => (
-                            <Card rate={item} key={`${item}`} />
+                        successRate.map((item, index) => (
+                            <Card rate={item} key={`${item + index}`} />
                         ))
                     }
                 </div>
