@@ -1,0 +1,53 @@
+.faq-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.faq {
+    /* Weight 600 Size 54px */
+    font-weight: 600;
+    font-size: 54px;
+    color: var(--color-white);
+
+}
+
+.faq-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    color: var(--color-white);
+}
+
+.sub-heading {
+    flex: 0.5;
+}
+
+.sub-heading-two {
+    flex: 0.5;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.sub-heading p {
+    /* Weight 500 Size 18px */
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 30%;
+}
+
+.report {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.report-details {
+    /* Weight 500 Size 18px */
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 30%;
+}

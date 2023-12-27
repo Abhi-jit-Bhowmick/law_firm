@@ -1,10 +1,12 @@
-
 import './App.css';
+
 
 import Choose from './Components/Choose/Choose';
 import Clint from './Components/Clints/Clint';
+import Faq from './Components/Faq/Faq';
 import Header from './Components/Header/Header';
 import Herosection from './Components/HeroSection/Herosection';
+import Subscriber from './Components/Subscriber/Subscriber';
 import Team from './Components/Team/Team';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Choose />
       <Clint />
       <Team />
+      <Faq />
+      <Subscriber />
     </>
   );
 }

@@ -1,0 +1,36 @@
+.accordian-button {
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50% !important;
+    background-color: var(--color-yellow) !important;
+    border: none !important;
+}
+
+.acorddiiaann {
+    border: none !important;
+    border-radius: 0% !important;
+    border-top: 2px solid rgba(217, 217, 217, 30%) !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    background-color: transparent !important;
+}
+
+.faq-question {
+    color: var(--color-white) !important;
+    /* Weight 600 Size 24px */
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
+.faq-answar {
+    color: var(--color-white) !important;
+    opacity: 30% !important;
+    padding-bottom: 5px !important;
+}
+
+.acorddiiaann-details,
+.acorddiiaann-summary {
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}

@@ -1,0 +1,56 @@
+.subscriber-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 356px;
+    background-color: rgba(71, 71, 71, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--color-white);
+}
+
+.subscriber-heading p {
+    /* Weight 500 Size 55px */
+    font-weight: 500;
+    font-size: 55px;
+
+}
+
+.subscriber-input-box {
+    width: 686px;
+    height: 53px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.subscriber-input-box input,
+button {
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.input-name {
+    border-radius: 8px 0 0 8px;
+    flex: 1;
+}
+
+.input-email {
+    flex: 1;
+}
+
+.input-button {
+    border-radius: 0 8px 8px 0;
+    width: 116px;
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 700;
+}

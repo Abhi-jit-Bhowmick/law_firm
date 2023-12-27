@@ -94,3 +94,22 @@ export const team = [
         case: 350,
     },
 ]
+
+
+export const faq = [
+    {
+        id: 1,
+        question: "How much is my case worth?",
+        answar: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment."
+    },
+    {
+        id: 2,
+        question: "What should I do right after car accidect",
+        answar: "who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
+    },
+    {
+        id: 3,
+        question: "How much is my case worth?",
+        answar: "who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."
+    }
+]
