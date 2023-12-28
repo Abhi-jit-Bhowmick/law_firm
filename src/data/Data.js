@@ -113,3 +113,38 @@ export const faq = [
         answar: "who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain."
     }
 ]
+
+
+export const imageList = [
+    {
+        id: 1,
+        img: "./Practices1.png",
+        name: "BUSINESS LAW"
+    },
+    {
+        id: 2,
+        img: "./Practices2.png",
+        name: "Partnership LAW"
+    },
+    {
+        id: 3,
+        img: "./Practices3.png",
+        name: "REAL ESTATE LAW"
+    },
+    {
+        id: 4,
+        img: "./Practices4.png",
+        name: "BUSINESS LAW"
+    },
+    {
+        id: 5,
+        img: "./Practices5.png",
+        name: "LANDLORD DISPUTES"
+    },
+    {
+        id: 6,
+        img: "./Practices6.png",
+        name: "ELDER ABUSE"
+    },
+
+]

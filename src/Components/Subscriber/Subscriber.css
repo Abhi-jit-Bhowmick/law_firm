@@ -29,8 +29,9 @@
 
 }
 
-.subscriber-input-box input,
-button {
+.input-name,
+.input-email,
+.input-btn {
     height: 100%;
     outline: none;
     border: none;
@@ -46,7 +47,7 @@ button {
     flex: 1;
 }
 
-.input-button {
+.input-btn {
     border-radius: 0 8px 8px 0;
     width: 116px;
     background-color: var(--color-yellow);
