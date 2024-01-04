@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Herosection />
       <Choose />
-      {/* <ListimgView /> */}
+
       <Clint />
       <Team />
       <Faq />
